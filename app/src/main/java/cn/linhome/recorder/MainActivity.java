@@ -1,14 +1,14 @@
-package com.fanwe.recorder;
+package cn.linhome.recorder;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.fanwe.lib.player.SDMediaPlayer;
-import com.fanwe.lib.recorder.SDMediaRecorder;
-
 import java.io.File;
+
+import cn.linhome.lib.player.SDMediaPlayer;
+import cn.linhome.lib.recorder.SDMediaRecorder;
 
 public class MainActivity extends AppCompatActivity
 {

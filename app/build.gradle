@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.fanwe.recorder"
+        applicationId "cn.linhome.recorder"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -20,6 +20,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.github.yangwb1259883028:player:1.0.5'
+    implementation 'com.github.yangwb1259883028:player:1.0.6'
     implementation project(':lib')
 }
