@@ -20,6 +20,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.github.yangwb1259883028:player:1.0.7'
+    implementation 'com.github.30Code:player:1.0.8'
     implementation project(':lib')
 }
